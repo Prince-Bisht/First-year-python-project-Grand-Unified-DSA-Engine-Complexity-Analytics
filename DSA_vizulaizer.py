@@ -158,15 +158,7 @@ class DSAVisualizer:
             bg=self.SURFACE,
         ).pack(side="left", pady=24)
 
-        tk.Label(
-            header,
-            text="PROJECT READY",
-            font=("Segoe UI", 8, "bold"),
-            fg=self.BG,
-            bg=self.GREEN,
-            padx=10,
-            pady=5,
-        ).pack(side="right", padx=24)
+        
 
         notebook = ttk.Notebook(self.root)
         notebook.pack(fill="both", expand=True, padx=16, pady=16)
